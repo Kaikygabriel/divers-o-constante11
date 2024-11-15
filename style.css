@@ -1,3 +1,4 @@
+
 @charset  "UTF-8";
 
 
@@ -38,46 +39,35 @@ h1#h1-2{
     text-align: center;
 }
 .div1{
-    margin-top: 20px;
-    margin-left: 40px;
-    margin-right:40px ;
+   margin-bottom: 20px;
+   margin-left:40px ;
     background-color: #210049; 
     height: 300px;
-     width: 180px;
+     width: 320px;
      display: inline-block;
      border-radius: 14px;
      box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.479);
 }
 .div2{
-
+   margin-left:40px ;
     background-color: #210049; 
     height: 300px;
-     width: 180px;
+    width: 320px;
      display: inline-block;
      border-radius: 14px;
      box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.479);
  }
  .div3{
-    margin-top: 20px;
-    margin-left: 40px;
-   margin-right:40px ;
-    background-color: #210049; 
-    height: 300px;
-     width: 180px;
-     display: inline-block;
-     border-radius: 14px;
-     box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.479);
- }
- .div4{
   
-    
+   margin-left:40px ;
     background-color: #210049; 
     height: 300px;
-     width: 180px;
+     width: 320px;
      display: inline-block;
      border-radius: 14px;
      box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.479);
  }
+
 
  .redes{
     padding-bottom: 170px;
@@ -159,16 +149,11 @@ h1#h1-2{
     background-size: cover;
     background-repeat: no-repeat;
  }
- .img4{ 
-    border-radius: 14px 14px 0px 0px;
-    width: 180px;
-    height: 200px;
-    background-image: url(pula-pula.png);
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
+
 .nb{
- 
+   
+ display: flex;
+ flex-direction: column;
+
 
 }
