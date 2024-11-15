@@ -1,0 +1,174 @@
+@charset  "UTF-8";
+
+
+*{
+    margin: 0px;
+    padding: 0px; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #630462;
+}
+header{
+ background-color: #00A388;
+    background-image: linear-gradient(to bottom, #00a388f6 ,#630462 );
+    height: 350px;
+   margin: auto;
+   
+   
+
+}
+.divnome{
+    position: absolute;
+    top:10% ;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+h1#h1-1{
+    font-family: "Playwrite GB S", serif;
+    color: #0EE911;
+    background-color: white;
+    display: inline-block;
+    border-radius: 10px;
+   text-align: center;
+}
+h1#h1-2{
+    color: #0EE911;
+    font-family: "Playwrite GB S", serif;
+    text-align: center;
+}
+.div1{
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right:40px ;
+    background-color: #210049; 
+    height: 300px;
+     width: 180px;
+     display: inline-block;
+     border-radius: 14px;
+     box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.479);
+}
+.div2{
+
+    background-color: #210049; 
+    height: 300px;
+     width: 180px;
+     display: inline-block;
+     border-radius: 14px;
+     box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.479);
+ }
+ .div3{
+    margin-top: 20px;
+    margin-left: 40px;
+   margin-right:40px ;
+    background-color: #210049; 
+    height: 300px;
+     width: 180px;
+     display: inline-block;
+     border-radius: 14px;
+     box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.479);
+ }
+ .div4{
+  
+    
+    background-color: #210049; 
+    height: 300px;
+     width: 180px;
+     display: inline-block;
+     border-radius: 14px;
+     box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.479);
+ }
+
+ .redes{
+    padding-bottom: 170px;
+    padding-top: 50px;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    align-content: space-between;
+    display: flex;
+    flex-direction: row;
+ }
+ .face{
+    position: absolute;
+   right: 20%;
+    flex-direction: row;
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    border-radius: 50%;
+    background-image: url(insta.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    box-shadow: 3px 4px 7px rgba(0, 0, 0, 0.397);
+ }
+ .zap{
+    position: absolute;
+    left: 25%;
+    flex-direction: row;
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    border-radius: 50%;
+    background-image: url(what.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    box-shadow: 3px 4px 7px rgba(0, 0, 0, 0.397);
+ }
+ .nb{
+    margin-top: 170px;
+ }
+ .zap:hover{
+    margin-top: -10px ;
+    transition: 0.5s;
+ }
+ .face:hover{
+    margin-top: -10px ;
+    transition: 0.5s;
+ }
+ .img1{
+   
+    border-radius: 14px 14px 0px 0px;
+    width: 180px;
+    height: 200px;
+    background-image: url(pula-pula.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+ }
+ .img2{
+
+    border-radius: 14px 14px 0px 0px;
+    width: 180px;
+    height: 200px;
+    background-image: url(pula-pula.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+ }
+ .img3{
+    border-radius: 14px 14px 0px 0px;
+    width: 180px;
+    height: 200px;
+    background-image: url(pula-pula.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+ }
+ .img4{ 
+    border-radius: 14px 14px 0px 0px;
+    width: 180px;
+    height: 200px;
+    background-image: url(pula-pula.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.nb{
+ 
+
+}
