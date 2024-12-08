@@ -7,8 +7,8 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 body{
-    background: rgb(82,0,10);
-background: linear-gradient(90deg, rgba(82,0,10,1) 53%, rgba(125,0,7,1) 83%);
+    background: rgb(192,0,3);
+background: linear-gradient(90deg, rgba(192,0,3,1) 5%, rgba(125,0,7,1) 20%, rgba(82,0,10,1) 40%, rgba(82,0,10,1) 50%, rgba(82,0,10,1) 60%, rgba(125,0,7,1) 80%, rgba(192,0,3,1) 100%, rgba(125,0,7,1) 100%);
 }
 
 :root{
@@ -19,27 +19,56 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: black; 
-    box-shadow: 4px 3px 6px rgba(0, 0, 0, 0.527);
+    background-image: linear-gradient(to bottom, );
+    
 }
+.onda{
+    width: 100%;
+    height: 52px;
+    position: absolute;
+    top: 0px;
+    background-image: url(onda.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    transform: rotate(180deg);
+    
+}
+
 .papai{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    width: 200px;
-    height: 200px;
+    width: 220px;
+    height: 220px;
     margin: auto;
+}
+.pnatal{
+   
+    z-index: 4;
+    position: absolute;
+    left: 44%;
+    background-color:#B4443C ;
+    color: white;
+    font-weight: bolder;
+    height: 25px;
+    width: 70px;
 }
 /* redes */
 
 .redes{    
      display: flex; 
     align-content: space-around;
-    border: 1px solid black ;
+    border-top: 1px  solid white ;
+    border-bottom: 1px  solid white ;
     margin-top: 80px;
     margin-bottom: 50px;
     padding: 15px;
     }
+.zapdiv{
+    margin: auto;
+   
+}
 .zap{
     border-radius: 50%;
     width: 60px;
@@ -57,6 +86,10 @@ header{
 .zap:hover{
     transition: ease-out 0.5s;
     margin-top: -5px;
+}
+.instadiv{
+    margin: auto;
+    
 }
 .insta:hover{
     transition: ease-out 0.5s;
@@ -76,7 +109,17 @@ transform: translate(-50%);
 
 
 }
-
+/* texto inicial */
+.titulo{
+    margin: auto;
+    margin-bottom: 20px;
+}
+.h1-titulo{
+    text-align: center;
+    color: #A8F039;
+    font-family: "Lilita One", serif;
+    font-size: 40px;
+}
 /* class das divs */
 .div-1{
     background-color: #210049;
@@ -97,6 +140,7 @@ transform: translate(-50%);
     z-index: 2;
 }
 .pula{
+    margin-top: 10px;
     text-align: center;
     
     color: white;
@@ -106,19 +150,39 @@ transform: translate(-50%);
 .di1{
     z-index: 4;
     color: white;
-    text-align: end;
-    align-items: flex-end;
+   text-align: center;
+   
   
 }
+.agende{
+    margin: auto;
+    text-align: center;
+    width: 100px;
+    height: 40px;
+    color: white;
+    font-weight: bolder;
+    background-color: #25D366;
+    border-radius: 8px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.agende:hover{
+    transition: ease-out 0.5s;
+    background-color: #198b43;
+}
+
 
 /* div 2 */
 .div-2{
     background-color: #210049;
-    display: inline-block;
     width: 300px;
     height: 200px;
-    margin-bottom: 20px;
+   
     border-radius: 10px;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
     box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.473);
 }
 .div-2 > img {
@@ -126,16 +190,50 @@ transform: translate(-50%);
     height: 200px; 
     border-radius: 10px 0px 0px 10px;
 }
-
+.piscina{
+    margin-top: 10px;
+    text-align: center;
+    
+    color: white;
+    font-size: 20px;
+    z-index: 7;
+}
+.di1{
+    z-index: 8;
+    color: white;
+   text-align: center;
+   
+  
+}
+.agende{
+    margin: auto;
+    text-align: center;
+    width: 100px;
+    height: 40px;
+    color: white;
+    font-weight: bolder;
+    background-color: #25D366;
+    border-radius: 8px;
+    cursor: pointer;
+    text-decoration: none;
+    z-index: 9;
+}
+.agende:hover{
+    transition: ease-out 0.5s;
+    background-color: #198b43;
+}
 
 /* div 3 */
 .div-3{
     background-color: #210049;
-    display: inline-block;
     width: 300px;
     height: 200px;
-    margin-bottom: 20px;
+   
     border-radius: 10px;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
     box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.473);
 }
 .div-3 > img {
@@ -147,11 +245,14 @@ transform: translate(-50%);
 /* div4 */
 .div-4{
     background-color: #210049;
-    display: inline-block;
     width: 300px;
     height: 200px;
-    margin-bottom: 20px;
+   
     border-radius: 10px;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
     box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.473);
 }
 .div-4 > img {
@@ -163,34 +264,70 @@ transform: translate(-50%);
 /* div 5 */
 .div-5{
     background-color: #210049;
-    display: inline-block;
     width: 300px;
     height: 200px;
-    margin-bottom: 20px;
+   
     border-radius: 10px;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
     box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.473);
 }
-.div-5 > img {
-    width: 150px;
-    height: 200px; 
-    border-radius: 10px 0px 0px 10px;
+.seciton-img{
+    display: flex;
+    flex-direction: column;
 }
+ .pula5{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 150px;
+    height: 100px; 
+    border-radius: 10px 0px 0px 0px;
+ }
+ .piscina5{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 150px;
+    height: 100px; 
+    border-radius: 0px 0px 0px 10px;
+ }
 
 /* div6 */
 .div-6{
-    display: inline-block;
+    background-color: #210049;
     width: 300px;
     height: 200px;
-    background-color: #210049;
+   
     border-radius: 10px;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
     margin-bottom: 20px;
     box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.473);
 }
-.div-6 > img {
-    width: 150px;
-    height: 200px; 
-    border-radius: 10px 0px 0px 10px;
+.seciton-img{
+    display: flex;
+    flex-direction: column;
 }
+ .algodao5{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 150px;
+    height: 100px; 
+    border-radius: 10px 0px 0px 0px;
+ }
+ .pipoca5{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 150px;
+    height: 100px; 
+    border-radius: 0px 0px 0px 10px;
+ }
 
 
 .fixo{
